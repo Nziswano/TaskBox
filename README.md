@@ -12,7 +12,7 @@
 "storybook": "start-storybook -p 9009 -s public --ci"
 ```
 
-- Add tutorial codes as a remote resource so one can checkout the resources
+- Add tutorial code as a remote resource so one can checkout the resources
 
 ```sh
 git remote add learn https://github.com/chromaui/learnstorybook-code.git
@@ -23,6 +23,12 @@ git restore -s learn/master -- public/icon
 ```
 
 ## Notes
+
+- [Storybook on medium](https://medium.com/storybookjs)
+
+### Updates
+
+- Storybook with main.js - [Declarative Storybook Configuration](https://medium.com/storybookjs/declarative-storybook-configuration-49912f77b78)
 
 ### Build a simple component
 
