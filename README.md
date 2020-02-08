@@ -32,16 +32,9 @@ git restore -s learn/master -- public/icon
 
 ### Build a simple component
 
-- Had to write a function to handle evenPropogation
+- The tutorial has been updated
 
-```jsx
-const handleClick = e => {
-  e.stopPropagation();
-};
-onClick = { handleClick };
-```
-
-- href attribute is required
+* href attribute is required
 
 ```jsx
 {
@@ -52,5 +45,3 @@ onClick = { handleClick };
   );
 }
 ```
-
-- Have to distinguish between the _storiesOf_ api and _Component Story Format(CSF)_ - [Story snapshot](https://github.com/storybookjs/storybook/tree/master/addons/storyshots/storyshots-core)
