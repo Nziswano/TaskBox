@@ -30,11 +30,13 @@ git restore -s learn/master -- public/icon
 
 - Storybook with main.js - [Declarative Storybook Configuration](https://medium.com/storybookjs/declarative-storybook-configuration-49912f77b78)
 
-### Build a simple component
+### Tutorial
 
 - The tutorial has been updated
 
-* href attribute is required
+#### Simple Component
+
+- href attribute is required
 
 ```jsx
 {
@@ -45,3 +47,7 @@ git restore -s learn/master -- public/icon
   );
 }
 ```
+
+- Generated a tag in git
+
+#### Composite Component
