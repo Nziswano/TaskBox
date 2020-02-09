@@ -63,3 +63,7 @@ test("render taskbox screen", () => {
   expect(linkElement).toBeInTheDocument();
 });
 ```
+
+### Testing
+
+- Start chromatic without starting storybook - `--do-not-start`
