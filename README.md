@@ -54,6 +54,7 @@ git restore -s learn/master -- public/icon
 
 - InboxScreen.js - Import PureTaskList rather than TaskList
 - Update **App.test.js** to no longer look for the test link.
+- Created a pull request for the tutorial.
 
 ```js
 test("render taskbox screen", () => {
