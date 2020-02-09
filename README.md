@@ -50,4 +50,15 @@ git restore -s learn/master -- public/icon
 
 - Generated a tag in git
 
-#### Composite Component
+#### Screens
+
+- InboxScreen.js - Import PureTaskList rather than TaskList
+- Update **App.test.js** to no longer look for the test link.
+
+```js
+test("render taskbox screen", () => {
+  const { getByText } = render(<App />);
+  const linkElement = getByText(/Taskbox/i);
+  expect(linkElement).toBeInTheDocument();
+});
+```
